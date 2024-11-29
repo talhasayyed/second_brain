@@ -68,3 +68,9 @@ enter command mode the
 `z + shift + r`
 
 
+
+### Tab to space in vim
+- `tabstop=4`: Sets the width of a tab character.
+- `shiftwidth=4`: Sets the indentation width for auto-indent operations.
+- `expandtab`: Converts tabs to spaces.
+- `:retab`: Convert existing tabs to spaces in the file
