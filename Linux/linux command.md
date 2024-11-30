@@ -257,3 +257,8 @@ ls -l /home/tsayyed/sharedVMFolder
 sudo usermod -aG vboxsf $USER
 ```
 After this, log out and log back in, and you should have the necessary permissions to access the shared folder without issues.
+
+### live log details, tail log
+```
+tail -f logfile.log
+```
